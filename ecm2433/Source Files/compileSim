@@ -1,0 +1,3 @@
+gcc -ansi -c runOneSimulation.c
+gcc -ansi -c runSimulations.c
+gcc -lgsl -lgslcblas -o runSimulations runSimulations.o runOneSimulation.o
